@@ -1,0 +1,289 @@
+.portfolio {
+  height: 80rem;
+}
+
+.portfolio-item a:visited {
+  color: var(--text-color);
+}
+
+.project-img {
+  width: 100%;
+  height: 65%;
+
+  transition: transform 0.75s;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.75s;
+}
+.portfolio-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12rem 10rem 8rem 10rem;
+  overflow: hidden;
+}
+
+.portfolio-heading {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+.github {
+  height: 4.5rem;
+  text-decoration: none;
+}
+
+.btn-git {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.portfolio-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18rem;
+}
+.slide {
+  height: 25%;
+  width: 25%;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+.portfolio a:visited {
+  color: inherit;
+}
+.portfolio h3 {
+  margin: 1.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 3860px) {
+  .portfolio {
+    height: 100rem;
+  }
+  .portfolio-slider {
+    display: flex;
+    justify-content: center;
+    gap: 35rem;
+  }
+  .slide {
+    height: 20%;
+    width: 20%;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 2560px) {
+  .portfolio {
+    height: 100rem;
+  }
+  .portfolio-slider {
+    display: flex;
+    justify-content: center;
+    gap: 35rem;
+  }
+  .slide {
+    height: 20%;
+    width: 20%;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 1920px) {
+  .portfolio {
+    height: 75rem;
+  }
+  .portfolio-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+  }
+  .slide {
+    height: 18%;
+    width: 18%;
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 1536px) {
+  .portfolio {
+    height: 70rem;
+  }
+  .portfolio-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+  }
+  .portfolio h3 {
+    margin: 1.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.7rem;
+  }
+  .portfolio p {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 1440px) {
+  .portfolio {
+    height: 65rem;
+  }
+  .portfolio-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+  }
+  .portfolio h3 {
+    margin: 1.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.6rem;
+  }
+
+  .portfolio p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .portfolio {
+    height: 55rem;
+  }
+  .portfolio-title {
+    margin: 8rem 5rem 5rem 5rem;
+  }
+  .portfolio-heading {
+    font-size: 3rem;
+  }
+  .portfolio-slider {
+    gap: 7rem;
+  }
+  .slide {
+    height: 30rem;
+    width: 25rem;
+  }
+  .btn-git {
+    font-size: 1.4rem;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio {
+    height: 100%;
+    margin: 3rem;
+  }
+  .portfolio-title {
+    justify-content: space-between;
+    gap: 20rem;
+    align-items: stretch;
+    margin: 6rem 3rem 3rem 3rem;
+  }
+  .portfolio-heading {
+    font-size: 2.5rem;
+  }
+  .portfolio-slider {
+    gap: 5rem;
+  }
+
+  .btn-git {
+    padding: 1rem;
+    font-size: 1.2rem;
+    gap: 1rem;
+  }
+  .slide {
+    width: 28%;
+    width: 100%;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio {
+    height: 100%;
+  }
+  .portfolio-title {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+    align-items: center;
+    margin: 4rem 2rem 2rem 2rem;
+  }
+  .portfolio-heading {
+    margin-top: 3.25rem;
+    font-size: 2rem;
+  }
+  .portfolio-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .slide {
+    height: 100%;
+    width: 70%;
+  }
+  .btn-git {
+    font-size: 1rem;
+    gap: 0.5rem;
+    margin: 0;
+    width: 10rem;
+    height: 4.5rem;
+    margin-bottom: 1rem;
+  }
+  .github {
+    width: 3rem;
+    height: 3rem;
+  }
+  .project-img {
+    width: 100%;
+    height: 40%;
+
+    transition: transform 0.75s;
+  }
+}
+
+@media (max-width: 400px) {
+  .portfolio {
+    height: 100%;
+  }
+  .portfolio-title {
+    justify-content: center;
+    gap: 8.5rem;
+    align-items: center;
+  }
+  .portfolio-heading {
+    font-size: 1.75rem;
+  }
+  .portfolio-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .slide {
+    width: 75%;
+    height: fit-content;
+  }
+
+  .btn-git {
+    font-size: 1rem;
+    gap: 0.5rem;
+    margin: 0;
+    width: 10rem;
+    height: 4.5rem;
+    margin-bottom: 1rem;
+  }
+  .project-img {
+    width: 100%;
+    transition: transform 0.75s;
+  }
+}

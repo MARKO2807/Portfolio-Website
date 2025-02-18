@@ -1,0 +1,28 @@
+/* GLOBAL CSS */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #5e3bee;
+  --heading-color: #282938;
+  --bg-shade: #f5fcff;
+  --drible: #e62872;
+  --body: #1c1e53;
+  --text-color: #0f1221;
+}
+
+html,
+body {
+  color: var(--text-color);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 10px; /* 1rem = 10px */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}

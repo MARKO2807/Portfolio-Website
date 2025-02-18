@@ -1,0 +1,399 @@
+/* GENERAL STYLES FOR HOMEPAGE */
+
+h1 {
+  font-size: 5rem;
+  color: var(--heading-color);
+  flex-wrap: nowrap;
+}
+.homepage strong {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 5.5rem;
+}
+.homepage {
+  height: 60rem;
+  background-color: var(--bg-shade);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.intro {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+  margin-left: 8rem;
+}
+.image1 {
+  height: 45rem;
+  transition: transform 0.75s ease;
+  margin-right: 8rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image1:hover,
+.image2:hover {
+  transform: scale(1.025);
+}
+
+.btn-homepage {
+  padding: 1.8rem 2.6rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.description {
+  font-size: 1.75rem;
+  color: var(--text-color);
+  margin: 0;
+}
+
+/* **************************************** MEDIA QUERIES ****************************************/
+
+@media (max-width: 3840px) {
+  .intro {
+    display: flex;
+  }
+  strong {
+    font-size: 8rem;
+  }
+
+  h1 {
+    font-size: 7.5rem;
+    color: var(--heading-color);
+    flex-wrap: nowrap;
+  }
+  .description {
+    font-size: 3rem;
+    color: var(--text-color);
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .image1 {
+    margin-right: 15rem;
+  }
+  .btn-homepage {
+    padding: 3rem 4rem;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 2560px) {
+  .intro {
+    display: flex;
+  }
+  strong {
+    font-size: 8rem;
+  }
+
+  h1 {
+    font-size: 7rem;
+    color: var(--heading-color);
+    flex-wrap: nowrap;
+  }
+  .description {
+    font-size: 3rem;
+    color: var(--text-color);
+    margin: 0;
+  }
+  .btn-homepage {
+    padding: 2rem 3rem;
+    font-size: 1.8rem;
+  }
+  .image1 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1920px) {
+  .homepage {
+    height: 52rem;
+  }
+  .intro {
+    display: flex;
+  }
+  h1 {
+    font-size: 5rem;
+    color: var(--heading-color);
+    flex-wrap: nowrap;
+  }
+  strong {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 6rem;
+  }
+  .description {
+    font-size: 2.1rem;
+    color: var(--text-color);
+    margin: 0;
+  }
+}
+
+@media (max-width: 1536px) {
+  .homepage {
+    height: 50rem;
+  }
+  .intro {
+    display: flex;
+  }
+  .btn-homepage {
+    padding: 2rem 3rem;
+    font-size: 1.8rem;
+  }
+  .image1 {
+    height: 40rem;
+  }
+  .description {
+    font-size: 1.75rem;
+    color: var(--text-color);
+    margin: 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .homepage strong {
+    font-size: 5rem;
+  }
+  .homepage {
+    height: 48rem;
+  }
+  .intro {
+    display: flex;
+  }
+  .btn-homepage {
+    padding: 2rem 3rem;
+    font-size: 1.8rem;
+  }
+  .image1 {
+    height: 40rem;
+  }
+  .description {
+    font-size: 1.75rem;
+    color: var(--text-color);
+    margin: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .homepage {
+    height: 40rem;
+  }
+  .intro {
+    display: flex;
+  }
+  .btn-homepage {
+    padding: 1.5rem 2rem;
+    font-size: 1.8rem;
+  }
+  .image1 {
+    height: 30rem;
+  }
+  h1 {
+    font-size: 2.7rem;
+  }
+  .homepage strong {
+    font-size: 3.5rem;
+  }
+  .description {
+    font-size: 1.45rem;
+  }
+  .btn-homepage {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage {
+    height: 33rem;
+    gap: 2rem;
+  }
+  .intro {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 2.5rem;
+    gap: 2.5rem;
+  }
+  .btn-homepage {
+    padding: 1.3rem 1.8rem;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }
+  .image1 {
+    height: 25rem;
+    margin-right: 2rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .homepage strong {
+    font-size: 2.8rem;
+  }
+  .description {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .homepage {
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1rem 0;
+  }
+  .intro {
+    display: flex;
+    margin: 1.6rem;
+    gap: 2rem;
+  }
+  .btn-homepage {
+    padding: 1.3rem 1.8rem;
+    font-size: 1.4rem;
+    margin-left: 2.5rem;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .description {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .image1 {
+    position: absolute;
+    height: 12.5rem;
+    transform: translate(8rem, 11rem);
+  }
+  .image1:hover {
+    transform: translate(8rem, 11rem);
+  }
+  .image:hover {
+    transform: none !important;
+  }
+}
+
+@media (max-width: 415px) {
+  .homepage {
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .intro {
+    display: flex;
+    margin: 1.6rem;
+    gap: 2rem;
+  }
+  .btn-homepage {
+    padding: 1.3rem 1.8rem;
+    font-size: 1.4rem;
+    margin-left: 2.5rem;
+  }
+  .homepage strong {
+    font-size: 2.5rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 4rem;
+  }
+
+  .image1 {
+    position: absolute;
+    height: 12.5rem;
+    transform: translate(8rem, 11rem);
+  }
+
+  @media (max-width: 395px) {
+    .homepage {
+      height: 33rem;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding: 0;
+    }
+    .intro {
+      display: flex;
+      margin: 0 1.5rem;
+      gap: 2rem;
+    }
+    .btn-homepage {
+      padding: 1.1rem 1.6rem;
+      font-size: 1.3rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+    .homepage strong {
+      font-size: 2.5rem;
+    }
+    .description {
+      font-size: 1.125rem;
+      line-height: 1.4;
+      margin-bottom: 3rem;
+    }
+
+    .image1 {
+      position: absolute;
+      height: 12rem;
+      transform: translate(8rem, 11rem);
+    }
+  }
+
+  @media (max-width: 340px) {
+    .homepage {
+      height: 35rem;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .intro {
+      display: flex;
+      margin: 0 1.5rem;
+      gap: 1.5rem;
+    }
+    .btn-homepage {
+      padding: 1.1rem 1.6rem;
+      font-size: 1.3rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+    .homepage strong {
+      font-size: 2.5rem;
+    }
+    .description {
+      font-size: 1.2rem;
+
+      margin-bottom: 4rem;
+    }
+
+    .image1 {
+      position: absolute;
+      height: 13rem;
+      transform: translate(8rem, 11rem);
+    }
+  }
+}

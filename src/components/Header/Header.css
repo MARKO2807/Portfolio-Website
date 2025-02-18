@@ -455,13 +455,15 @@
   .logo{
     height: 5.5rem;
    filter: none;
+   z-index: -1;
   }
   .title{
     font-size: 2.25rem;
     margin: 0;
+    z-index: 1;
   }
   .main-logo{
-  width:20.5rem;
+  width:20.7rem;
   }
   .contact-button{
     margin-left: 2rem;
@@ -483,8 +485,15 @@
    
     
   }
+   .main-logo{
+  width:20.7rem;
+  }
    .logo{
        filter: none;
+       z-index: -1;
+     }
+     .title{
+      z-index: 1;
      }
  .contact-button{
     margin-left: 1.5rem;
@@ -513,6 +522,13 @@
   }
   .logo{
        filter: none;
+       z-index: -1;
+     }
+      .main-logo{
+  width:20.7rem;
+  }
+     .title{
+      z-index: 1;
      }
     .mobile-navigation nav{
     gap: 2rem;

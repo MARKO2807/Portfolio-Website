@@ -286,4 +286,9 @@ a {
     width: 100%;
     transition: transform 0.75s;
   }
+  .portfolio a,
+  .portfolio p {
+    color: var(--text-color) !important;
+    text-decoration: none;
+  }
 }

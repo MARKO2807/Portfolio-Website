@@ -262,6 +262,9 @@ h3 {
     align-items: center;
     gap: 0;
   }
+  .skills-div p {
+    text-align: center;
+  }
   .icon-heading {
     width: 12.5rem;
   }
@@ -302,6 +305,9 @@ h3 {
       flex-direction: row;
       justify-content: center;
       align-items: center;
+    }
+    .skills-div p {
+      text-align: center;
     }
     .expertise-title {
       margin-top: 4rem;
@@ -352,6 +358,9 @@ h3 {
       flex-direction: row;
       justify-content: center;
       align-items: center;
+    }
+    .skills-div p {
+      text-align: center;
     }
     .skills-title {
       display: flex;

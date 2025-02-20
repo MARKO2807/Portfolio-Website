@@ -11,7 +11,7 @@ export const AboutMe = () => {
       <aside className="about-me-aside">
         <h2 className="about-me-title">About Me</h2>
         <p>
-          Hi there! I’m Marko Bare, a Kinesiologist who discovered a passion for
+          Hi there! I’m Marko Bare, a kinesiologist who discovered passion for
           web development. I love combining creativity with problem-solving to
           design solutions that not only look great but are also easy to use.
           For me, building user-friendly interfaces is all about making

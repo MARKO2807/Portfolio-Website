@@ -185,7 +185,9 @@ label {
 /* Mobile-friendly design */
 @media (max-width: 480px) {
   .contact-title p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
   }
   .contact-title h2 {
     font-size: 3.2rem;
@@ -216,7 +218,7 @@ label {
 
 @media (max-width: 415px) {
   .contact-title p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .contact-form textarea {
     width: 28rem;
@@ -228,7 +230,7 @@ label {
 }
 @media (max-width: 360px) {
   .contact-title p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .contact-form input,
   .contact-form textarea {

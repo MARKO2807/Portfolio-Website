@@ -215,6 +215,9 @@ hr {
     justify-content: center;
     gap: 25rem; /* Adjust for narrower layouts */
   }
+  .footer-2 a {
+    font-size: 1.165rem;
+  }
 
   .footer-3 {
     gap: 1.5rem; /* Reduce gap for smaller screens */
@@ -239,15 +242,18 @@ hr {
   .footer-nav {
     display: flex;
     justify-content: center;
-    gap: 13rem; /* Adjust for narrower layouts */
+    gap: 13rem;
   }
 
   .footer-3 {
-    gap: 1.5rem; /* Reduce gap for smaller screens */
+    gap: 1.5rem;
   }
 
   .made-by {
-    height: 7rem; /* Standard height */
+    height: 7rem;
+  }
+  .footer-2 a {
+    font-size: 1.3rem;
   }
 
   .made-by small strong {
@@ -266,16 +272,16 @@ hr {
   .footer-nav {
     display: flex;
     justify-content: center;
-    gap: 6rem; /* Adjust for narrower layouts */
+    gap: 6rem;
     margin: 0;
   }
 
   .footer-3 {
-    gap: 1rem; /* Reduce gap for smaller screens */
+    gap: 1rem;
   }
 
   .made-by {
-    height: 6rem; /* Standard height */
+    height: 6rem;
   }
 
   .made-by img {
@@ -316,24 +322,23 @@ hr {
   .footer-nav {
     display: flex;
     justify-content: space-evenly;
-    gap: 0rem; /* Adjust for narrower layouts */
+    gap: 0rem;
     margin: 1.75rem;
   }
 
   .footer-3 {
-    gap: 1rem; /* Reduce gap for smaller screens */
+    gap: 1rem;
     margin: 0 2rem 2rem 0;
   }
 
   .made-by {
-    height: 6rem; /* Standard height */
+    height: 6rem;
   }
   .footer-2 nav a {
     display: flex;
     flex-direction: row;
     font-size: 1rem;
   }
-
   .made-by small strong {
     font-size: 1.4rem;
   }
@@ -379,7 +384,7 @@ hr {
   }
 
   .made-by {
-    height: 4rem; /* Standard height */
+    height: 4rem;
   }
   .footer-2 nav a {
     display: flex;

@@ -365,7 +365,7 @@
     display: none; 
   }
     .contact-button{
-    margin-left: 1rem;
+    margin-left: 2rem;
 
   }
 
@@ -373,7 +373,7 @@
     display: flex;
     font-size: 4rem;
     color: var(--text-color);
-    margin-right: 3rem;
+    margin-right: 4rem;
     background: none;
     border: none;
     cursor: pointer;
@@ -415,10 +415,10 @@
     flex-direction: column;
     align-items: center; 
     justify-content: center; 
-    gap: 2rem; 
+    gap: 5rem; 
     width: 100%; 
     overflow: hidden;
-    margin-left: 5rem;
+    margin-left: 4rem;
   }
   .main-logo{
      width: 29.2rem;
@@ -496,14 +496,14 @@
       z-index: 1;
      }
  .contact-button{
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
 
   }
     .mobile-navigation nav{
     gap: 2rem;
   }
 
-  .header nav {gap: 3rem ;}
+  .header nav {gap: 4rem ;}
 }
 
 
@@ -517,7 +517,7 @@
    
   }
    .contact-button{
-    margin-left: 1.5rem;
+    margin-left: 2rem;
 
   }
   .logo{
@@ -531,7 +531,7 @@
       z-index: 1;
      }
     .mobile-navigation nav{
-    gap: 2rem;
+    gap: 4rem;
   }
-  .header nav {gap: 3rem ;}
+  .header nav {gap: 4rem ;}
    }

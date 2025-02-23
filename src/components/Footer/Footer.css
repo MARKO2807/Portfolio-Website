@@ -8,7 +8,7 @@ footer img {
 }
 
 hr {
-  opacity: 50%;
+  opacity: 40%;
 }
 
 .made-by {
@@ -22,6 +22,10 @@ hr {
 .made-by img {
   margin-bottom: 6rem;
   filter: grayscale(70%); /* Apply grayscale filter */
+}
+
+.made-by small strong {
+  color: var(--primary-color);
 }
 
 .footer-nav {
@@ -69,26 +73,26 @@ hr {
   gap: 4rem;
 }
 .footer-2 a {
-  text-decoration: none; /* Remove default underline */
-  color: var(--text-color); /* Set default link color */
-  font-size: 1.5rem; /* Adjust font size */
-  position: relative; /* Enable pseudo-elements for effects */
-  padding-bottom: 0.4rem; /* Add space for the hover line */
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  position: relative;
+  padding-bottom: 0.4rem;
 }
 
 .footer-2 a::after {
-  content: ""; /* Create a pseudo-element for the line */
-  position: absolute; /* Position relative to the anchor */
-  left: 0; /* Start at the left edge */
-  bottom: 0; /* Place at the bottom of the anchor */
-  width: 0; /* Initially hidden */
-  height: 2px; /* Thickness of the line */
-  background-color: var(--primary-color); /* Color of the hover line */
-  transition: width 0.5s ease; /* Smooth transition for the effect */
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width 0.5s ease;
 }
 
 .footer-2 a:hover::after {
-  width: 100%; /* Expand line to full width on hover */
+  width: 100%;
 }
 
 .footer-3 {
@@ -105,10 +109,10 @@ hr {
 .footer-3 img {
   width: 2.8rem;
   height: 2.8rem;
-  filter: grayscale(70%); /* Apply grayscale filter */
+  filter: grayscale(70%);
 }
 .footer-3 a {
-  display: inline-flex; /* Ensure anchor wraps tightly around the image */
+  display: inline-flex;
   align-items: end;
   justify-content: center;
   width: 2.8rem;
@@ -156,25 +160,25 @@ hr {
   .footer-nav {
     display: flex;
     justify-content: space-evenly;
-    gap: 70rem; /* Adjust gap for ultra-wide screens */
+    gap: 70rem;
     margin: 1rem;
   }
 
   .footer-3 {
-    gap: 2.5rem; /* Slightly larger gap between icons */
+    gap: 2.5rem;
   }
 
   .footer-3 img {
-    width: 3.2rem; /* Increase icon size slightly */
+    width: 3.2rem;
     height: 3.2rem;
   }
 
   .made-by {
-    height: 9rem; /* Increase height for better spacing */
+    height: 9rem;
   }
 
   .made-by small strong {
-    font-size: 2rem; /* Larger text for readability */
+    font-size: 2rem;
   }
 }
 
@@ -182,25 +186,25 @@ hr {
   .footer-nav {
     display: flex;
     justify-content: space-evenly;
-    gap: 32rem; /* Adjust spacing for 1920px */
+    gap: 32rem;
     margin: 0 5rem;
   }
 
   .footer-3 {
-    gap: 2rem; /* Maintain balance between icons */
+    gap: 2rem;
   }
 
   .footer-3 img {
-    width: 3rem; /* Adjust icon size */
+    width: 3rem;
     height: 3rem;
   }
 
   .made-by {
-    height: 8rem; /* Adjust height slightly */
+    height: 8rem;
   }
 
   .made-by small strong {
-    font-size: 1.8rem; /* Slightly smaller for 1920px */
+    font-size: 1.8rem;
   }
 }
 
@@ -213,18 +217,18 @@ hr {
   .footer-nav {
     display: flex;
     justify-content: center;
-    gap: 25rem; /* Adjust for narrower layouts */
+    gap: 25rem;
   }
   .footer-2 a {
     font-size: 1.165rem;
   }
 
   .footer-3 {
-    gap: 1.5rem; /* Reduce gap for smaller screens */
+    gap: 1.5rem;
   }
 
   .made-by {
-    height: 7rem; /* Standard height */
+    height: 7rem;
   }
 
   .made-by small strong {

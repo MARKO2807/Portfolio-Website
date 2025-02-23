@@ -25,7 +25,7 @@ export const MyExpertise = () => {
         </div>
         <div className="skills-div">
           <div className="icon-heading">
-            <img src="/js.png" alt="JavaScript logo" />
+            <img src="/js.png" alt="JavaScript logo" className="js-logo" />
             <h3>JavaScript</h3>
           </div>
           <p>Bringing interactivity to life with dynamic scripting.</p>

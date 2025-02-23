@@ -20,7 +20,12 @@ export const Homepage = () => {
         </a>
       </div>
 
-      <img className="image1" src="/imageone.png" alt="Personal photograph" />
+      <img
+        className="image1"
+        src="/markobare.png"
+        alt="Personal photograph"
+        loading="lazy"
+      />
     </section>
   );
 };

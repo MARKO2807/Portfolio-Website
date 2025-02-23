@@ -41,6 +41,12 @@
     font-size: 5rem;
   }
 }
+
+@media (max-width: 2560px) {
+  .image2 {
+    margin-bottom: 1rem;
+  }
+}
 @media (max-width: 1920px) {
   .about-me {
     flex-direction: row;
@@ -51,7 +57,9 @@
     margin-top: 3rem;
   }
   .image2 {
-    width: 30rem;
+    width: 27rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
   }
 }
 @media (max-width: 1024px) {
@@ -61,6 +69,8 @@
     align-items: center;
   }
   .image2 {
+    margin-top: 3rem;
+    margin-left: 1rem;
     width: 28rem;
   }
 }
@@ -91,9 +101,11 @@
     font-size: 1.3rem;
     margin-top: 3rem;
   }
-
-  p {
-    text-align: left;
+}
+@media (max-width: 440px) {
+  .image2 {
+    width: 17rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -102,7 +114,7 @@
     margin: 0 2.5rem 2.5rem;
   }
   .image2 {
-    width: 20rem;
+    width: 18rem;
   }
   .about me p {
     font-size: 1rem;
@@ -113,7 +125,7 @@
     margin: 0 2rem 2rem;
   }
   .image2 {
-    width: 20rem;
+    width: 15rem;
   }
   .about me p {
     font-size: 1rem;

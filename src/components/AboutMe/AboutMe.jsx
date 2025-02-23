@@ -5,7 +5,7 @@ export const AboutMe = () => {
     <section id="about-me" className="about-me">
       <img
         className=" image2"
-        src="/imageone.png"
+        src="/markobare2.png"
         alt="Profile picture or descriptive image"
       />
       <aside className="about-me-aside">

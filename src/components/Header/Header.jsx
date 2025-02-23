@@ -16,6 +16,7 @@ export const Header = () => {
         setIsSticky(false);
       }
       setLastScrollY(currentScrollY);
+      console.log(currentScrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -80,7 +81,7 @@ export const Header = () => {
             <a href="#home">Home</a>
             <a href="#about-me">About Me</a>
             <a href="#portfolio">Portfolio</a>
-            <a href="#contact-form" tabindex="-1">
+            <a href="#contact-form" tabIndex="-1">
               <button className="button-link contact-button">Contact Me</button>
             </a>
           </nav>

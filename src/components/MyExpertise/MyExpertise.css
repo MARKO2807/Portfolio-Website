@@ -193,7 +193,7 @@ h3 {
     gap: 5rem;
   }
   .icon-heading {
-    gap: 0.25rem;
+    gap: 0.5rem;
     margin: 1rem;
     margin-bottom: 2rem;
   }
@@ -280,100 +280,103 @@ h3 {
   .portfolio p {
     margin-left: 1.5rem;
   }
+}
+/* Mobile devices */
 
-  /* Mobile devices */
+/* mobile devices */
 
-  /* mobile devices */
-
-  @media (max-width: 440px) {
-    .expertise {
-      height: 62rem;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-    }
-    .skills {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 2rem;
-    }
-    .skills-div {
-      width: 100%;
-      height: 12em;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-    .skills-div p {
-      text-align: center;
-    }
-    .expertise-title {
-      margin-top: 4rem;
-      margin-bottom: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 2rem;
-    }
-    .skills-title {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 3rem;
-      font-size: 2.4rem;
-    }
-
-    h3 {
-      margin: 1.5rem;
-      display: flex;
-      flex-wrap: nowrap;
-      font-size: 1.3rem !important;
-    }
+@media (max-width: 440px) {
+  .expertise {
+    height: 62rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
-  @media (max-width: 390px) {
-    .expertise {
-      height: 61rem;
-    }
-    .skills {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 2rem;
-    }
-    .expertise-title {
-      margin-top: 4rem;
-      margin-bottom: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 2rem;
-    }
-    .skills-div {
-      width: 100%;
-      height: 12em;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-    .skills-div p {
-      text-align: center;
-    }
-    .skills-title {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 3rem;
-      font-size: 2.4rem;
-    }
-    .expertise p,
-    h3 {
-      font-size: 1.2rem;
-      text-align: center;
-    }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .skills-div {
+    width: 100%;
+    height: 12em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills-div p {
+    text-align: center;
+  }
+  .expertise-title {
+    margin-top: 4rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .skills-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 2.4rem;
+  }
+  .js-logo {
+    margin-left: 2.25rem;
+  }
+
+  .expertise h3 {
+    margin: 1.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.3rem !important;
   }
 }
+@media (max-width: 390px) {
+  .expertise {
+    height: 61rem;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .expertise-title {
+    margin-top: 4rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .skills-div {
+    width: 100%;
+    height: 12em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills-div p {
+    text-align: center;
+  }
+  .skills-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 2.4rem;
+  }
+  .expertise p,
+  h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
 /* mobile devices */

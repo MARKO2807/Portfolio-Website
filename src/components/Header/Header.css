@@ -65,9 +65,9 @@
   border-right: 2px solid var(--text-color);
   width: 20rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  animation:  typing 2.5s steps(40) forwards,
+  animation:  typing 2.25s steps(40) forwards,
               colorChange 1.75s infinite ease-in-out 1.8s,
-              removeCursor 5s forwards;
+              removeCursor 5.25s forwards;
               transition: transform 1s ease;
 }
 
@@ -233,6 +233,7 @@
   width:24rem;
 
 }
+
 }
 
 @media (max-width: 2560px) {
@@ -463,7 +464,7 @@
     z-index: 1;
   }
   .main-logo{
-  width:20.55rem;
+  width:20.5rem;
   }
   .contact-button{
     margin-left: 2rem;
@@ -486,7 +487,7 @@
     
   }
    .main-logo{
-  width:20.55rem;
+  width:20.5rem;
   }
    .logo{
        filter: none;
@@ -496,7 +497,7 @@
       z-index: 1;
      }
  .contact-button{
-    margin-left: 2.5rem;
+    margin-left: 2rem;
 
   }
     .mobile-navigation nav{
@@ -525,7 +526,7 @@
        z-index: -1;
      }
       .main-logo{
-  width:20.55rem;
+  width:20.5rem;
   }
      .title{
       z-index: 1;

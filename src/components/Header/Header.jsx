@@ -16,7 +16,7 @@ export const Header = () => {
         setIsSticky(false);
       }
       setLastScrollY(currentScrollY);
-      console.log(currentScrollY);
+      // console.log(currentScrollY);
     };
 
     window.addEventListener("scroll", handleScroll);

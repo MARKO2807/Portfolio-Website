@@ -69,6 +69,24 @@ a {
   flex-wrap: nowrap;
   font-size: 1.8rem;
 }
+.custom-cursor {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 1000;
+  transition: transform 0.1s ease-out;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.portfolio-item {
+  position: relative;
+  text-decoration: none;
+}
 
 @media (max-width: 3860px) {
   .portfolio {
@@ -83,6 +101,9 @@ a {
     height: 20%;
     width: 20%;
     padding-bottom: 3rem;
+  }
+  .portfolio-heading {
+    font-size: 5rem;
   }
 }
 @media (max-width: 2560px) {
@@ -99,6 +120,9 @@ a {
     width: 20%;
     padding-bottom: 3rem;
   }
+  .portfolio-heading {
+    font-size: 5rem;
+  }
 }
 @media (max-width: 1920px) {
   .portfolio {
@@ -113,6 +137,9 @@ a {
     height: 18%;
     width: 18%;
     padding-bottom: 2rem;
+  }
+  .portfolio-heading {
+    font-size: 4rem;
   }
 }
 @media (max-width: 1536px) {
@@ -153,6 +180,9 @@ a {
   .portfolio p {
     font-size: 1.2rem;
   }
+  .portfolio-heading {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -161,9 +191,10 @@ a {
   }
   .portfolio-title {
     margin: 8rem 5rem 5rem 5rem;
+    font-size: 3rem;
   }
   .portfolio-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .portfolio-slider {
     gap: 7rem;
@@ -188,9 +219,10 @@ a {
     gap: 20rem;
     align-items: stretch;
     margin: 6rem 3rem 3rem 3rem;
+    font-size: 2rem;
   }
   .portfolio-heading {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .portfolio-slider {
     gap: 5rem;

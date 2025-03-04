@@ -70,14 +70,14 @@ label {
 .contact-form input:focus,
 .contact-form textarea:focus {
   border-color: var(--primary-color);
-  box-shadow: 0 3px 8px rgba(94, 59, 238, 0.3);
+  box-shadow: 0 3px 8px rgba(19, 122, 99, 0.5);
   outline: none;
   transform: scale(1.025);
 }
 .contact-form input:hover,
 .contact-form textarea:hover {
   border-color: var(--primary-color);
-  box-shadow: 0 3px 8px rgba(94, 59, 238, 0.3);
+  box-shadow: 4px 4px 10px rgba(19, 122, 99, 0.4);
   outline: none;
   transform: scale(1.025);
 }

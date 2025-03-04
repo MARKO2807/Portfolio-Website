@@ -3,27 +3,26 @@ import "./AboutMe.css";
 export const AboutMe = () => {
   return (
     <section id="about-me" className="about-me">
-      <img
-        className=" image2"
-        src="/markobare2.png"
-        alt="Profile picture or descriptive image"
-      />
       <aside className="about-me-aside">
         <h2 className="about-me-title">About Me</h2>
         <p>
-          Hi there! I’m Marko Bare, a kinesiologist who discovered passion for
-          web development. I love combining creativity with problem-solving to
-          design solutions that not only look great but are also easy to use.
-          For me, building user-friendly interfaces is all about making
-          technology feel welcoming and accessible.
+          Hey, I’m Marko Bare – a kinesiologist turned web developer! I believe
+          technology should feel intuitive and accessible, so I build user
+          interfaces that don’t just look great but also offer seamless
+          experiences. For me, coding is the perfect mix of creativity and
+          problem-solving – I’m always finding smart ways to blend design with
+          functionality. I love the challenge of turning complex ideas into
+          clean, user-friendly designs that make a real impact. Whether it’s
+          refining interactions or optimizing performance, I’m always looking
+          for ways to enhance the digital experience.
         </p>
 
         <p>
-          Outside of coding, I’m passionate about games like chess and love
-          exploring new technologies to keep my skills sharp. These hobbies
-          inspire me to tackle challenges with fresh perspectives and a playful
-          mindset. I’m eager to bring my enthusiasm and determination to a team
-          focused on creating meaningful digital experiences.
+          When I’m not coding, you’ll find me playing chess or exploring new
+          technologies – two passions that keep me thinking strategically and
+          adapting to new challenges. If you're looking for someone who brings
+          fresh perspectives and enthusiasm to building digital experiences,
+          let’s connect – I’d love to chat about new ideas!
         </p>
       </aside>
     </section>

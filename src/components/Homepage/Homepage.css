@@ -73,8 +73,7 @@
     white-space: pre-wrap;
   }
   .image1 {
-    margin-right: 5rem;
-    margin-left: 3rem;
+    margin-left: 8rem;
   }
   .btn-homepage {
     padding: 3rem 4rem;
@@ -132,6 +131,8 @@
   }
   .image1 {
     width: 35rem;
+    height: 35rem;
+    margin-right: 12rem;
   }
 }
 
@@ -147,11 +148,12 @@
     font-size: 1.8rem;
   }
   .image1 {
-    height: 38rem;
-    margin-right: 8rem;
+    height: 32.5rem;
+    width: 32.5rem;
+    margin-right: 12rem;
   }
   .description {
-    font-size: 1.75rem;
+    font-size: 1.84rem;
     color: var(--text-color);
     margin: 0;
   }
@@ -175,12 +177,13 @@
     font-size: 1.8rem;
   }
   .image1 {
-    height: 35rem;
+    height: 31rem;
+    width: 31rem;
     margin-left: 3rem;
-    margin-right: 8rem;
+    margin-right: 10rem;
   }
   .description {
-    font-size: 1.75rem;
+    font-size: 1.775rem;
     color: var(--text-color);
     margin: 0;
   }
@@ -198,7 +201,8 @@
     font-size: 1.8rem;
   }
   .image1 {
-    height: 30rem;
+    height: 26rem;
+    width: 26rem;
   }
   .intro h1 {
     font-size: 2.7rem;
@@ -207,7 +211,7 @@
     font-size: 3.5rem;
   }
   .description {
-    font-size: 1.45rem;
+    font-size: 1.4rem;
   }
   .btn-homepage {
     font-size: 1.4rem;
@@ -231,8 +235,9 @@
     margin-top: 2rem;
   }
   .image1 {
-    height: 23rem;
-    margin-right: 3rem;
+    height: 21rem;
+    width: 21rem;
+    margin-right: 5rem;
   }
   .intro h1 {
     font-size: 2.5rem;
@@ -248,7 +253,7 @@
 
 @media (max-width: 480px) {
   .homepage {
-    height: 33rem;
+    height: 36rem;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -283,8 +288,10 @@
   .image1 {
     position: absolute;
     width: 9rem;
-    height: 12rem;
+    height: 11rem;
     transform: translate(10rem, 9rem);
+    margin-top: 5rem;
+    margin-left: 8rem;
   }
   .image1:hover {
     transform: translate(10rem, 9rem);
@@ -296,7 +303,7 @@
 
 @media (max-width: 415px) {
   .homepage {
-    height: 35rem;
+    height: 36rem;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -327,8 +334,10 @@
 
   .image1 {
     position: absolute;
-    height: 12.5rem;
+    height: 10rem;
     transform: translate(8rem, 10rem);
+    margin-top: 5rem;
+    margin-left: 6rem;
   }
   .image1:hover {
     transform: translate(8rem, 10rem);
@@ -336,7 +345,7 @@
 
   @media (max-width: 395px) {
     .homepage {
-      height: 33rem;
+      height: 36rem;
       display: flex;
       flex-direction: column;
       position: relative;
@@ -366,8 +375,9 @@
 
     .image1 {
       position: absolute;
-      height: 12rem;
+      height: 10rem;
       transform: translate(8rem, 10rem);
+      margin-bottom: 1rem;
     }
   }
 

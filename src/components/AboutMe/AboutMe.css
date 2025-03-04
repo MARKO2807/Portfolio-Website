@@ -9,7 +9,7 @@
 }
 .about-me-title {
   font-size: 4rem;
-  margin-left: 1.75rem;
+  margin-left: 3rem;
 }
 .about-me p {
   margin-top: 5rem;
@@ -29,6 +29,7 @@
     height: auto;
     align-items: center;
     gap: 10rem;
+    margin-left: 9rem;
   }
   .image2 {
     width: 50rem;
@@ -46,6 +47,16 @@
   .image2 {
     margin-bottom: 1rem;
   }
+  .about-me {
+    margin: 7rem;
+  }
+  .about-me p {
+    margin-left: 5rem;
+    font-size: 2.25rem;
+  }
+  .about-me-title {
+    font-size: 5rem;
+  }
 }
 @media (max-width: 1920px) {
   .about-me {
@@ -55,23 +66,44 @@
   }
   .about-me p {
     margin-top: 3rem;
+    font-size: 2rem;
   }
   .image2 {
     width: 27rem;
     margin-top: 1rem;
     margin-right: 2rem;
   }
+  .about-me-title {
+    font-size: 4rem;
+  }
 }
+
+@media (max-width: 1440px) {
+  .about-me-title {
+    font-size: 3rem;
+  }
+  .about-me p {
+    font-size: 1.8rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .about-me {
     flex-direction: row;
     height: auto;
     align-items: center;
+    margin-left: 1.25rem;
   }
   .image2 {
     margin-top: 3rem;
     margin-left: 1rem;
     width: 28rem;
+  }
+  .about-me-title {
+    font-size: 2.5rem;
+  }
+  .about-me p {
+    font-size: 1.65rem;
   }
 }
 @media (max-width: 768px) {
@@ -83,6 +115,12 @@
   .image2 {
     width: 28rem;
   }
+  .about-me-title {
+    font-size: 2rem;
+  }
+  .about-me p {
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 480px) {
   .about-me-title {
@@ -90,22 +128,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem;
+    margin-left: 0rem;
+    margin-top: 3rem;
   }
   .about-me {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    margin: 0 2rem 0 2rem;
   }
   .about-me p {
     font-size: 1.3rem;
+    margin: 0;
     margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
   }
 }
 @media (max-width: 440px) {
   .image2 {
     width: 17rem;
     margin-bottom: 3rem;
+  }
+  .about-me-title {
+    margin-left: 0;
   }
 }
 

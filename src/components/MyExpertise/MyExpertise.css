@@ -4,7 +4,7 @@
   line-height: 1.4;
   margin-left: 2rem;
 }
-h3 {
+.portfolio h3 {
   font-size: 1.8rem;
   font-weight: 800;
 }
@@ -23,7 +23,7 @@ h3 {
 
 .expertise img:hover {
   transform: scale(1.2);
-  filter: drop-shadow(0 0 15px rgba(94, 59, 190, 0.2));
+  filter: drop-shadow(0 0 15px rgba(19, 122, 99, 0.5));
 }
 
 .skills {
@@ -99,7 +99,7 @@ h3 {
   }
 }
 .expertise {
-  margin: 8rem;
+  margin: 6em;
 }
 .skills {
   gap: 2rem;
@@ -128,9 +128,9 @@ h3 {
     justify-content: space-evenly;
   }
   .skills-div {
-    width: 27rem;
+    width: 26rem;
     height: 20rem;
-    gap: 1.5rem;
+    gap: 1rem;
   }
   .expertise-title {
     font-size: 4rem;
@@ -140,18 +140,28 @@ h3 {
   }
 
   .skills p {
-    font-size: 1.45rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 1560px) {
+  .expertise {
+    margin-bottom: 0rem;
   }
 }
 
 /* Laptops */
 
 @media (max-width: 1440px) {
+  .expertise {
+    height: 38rem;
+  }
   .expertise p {
     font-size: 1.45rem;
   }
   .expertise {
     margin: 8rem;
+    margin-bottom: 0rem;
   }
   .expertise-title {
     font-size: 3rem;
@@ -176,11 +186,13 @@ h3 {
   .expertise p {
     font-size: 1.25rem;
   }
-  h3 {
+  .expertise h3 {
     font-size: 1.4rem;
   }
   .expertise {
     margin: 5rem;
+    margin-bottom: 0rem;
+    height: 36rem;
   }
   .expertise-title {
     font-size: 2.5rem;
@@ -211,13 +223,14 @@ h3 {
 /* Tablets */
 @media (max-width: 768px) {
   .expertise {
-    height: 65rem;
+    height: 50rem;
     width: 100%;
     margin: 0;
+    margin-top: 3rem;
   }
   .skills-div {
     width: 25rem;
-    height: 17rem;
+    height: 16rem;
     overflow: hidden;
     gap: 0.75rem;
   }
@@ -237,8 +250,8 @@ h3 {
     font-size: 3.2rem;
   }
   .expertise-title {
-    margin: 2.5rem;
     font-size: 2rem;
+    margin: 2rem 0 0 5rem;
   }
 }
 
@@ -316,6 +329,7 @@ h3 {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    margin-left: 0rem;
   }
   .skills-title {
     display: flex;

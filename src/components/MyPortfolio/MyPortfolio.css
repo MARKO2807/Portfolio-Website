@@ -69,24 +69,6 @@ a {
   flex-wrap: nowrap;
   font-size: 1.8rem;
 }
-.custom-cursor {
-  position: fixed;
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 8px 12px;
-  border-radius: 5px;
-  font-size: 14px;
-  pointer-events: none;
-  z-index: 1000;
-  transition: transform 0.1s ease-out;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
-
-.portfolio-item {
-  position: relative;
-  text-decoration: none;
-}
 
 @media (max-width: 3860px) {
   .portfolio {

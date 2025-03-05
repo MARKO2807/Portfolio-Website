@@ -60,7 +60,7 @@
   .expertise p {
     font-size: 1.8rem;
   }
-  h3 {
+  .expertise h3 {
     font-size: 2.2rem;
   }
   h2 {
@@ -90,11 +90,11 @@
   .expertise p {
     font-size: 1.8rem;
   }
-  h3 {
+  .expertise h3 {
     font-size: 2.2rem;
   }
   h2 {
-    font-size: 3.5rem;
+    font-size: 5rem;
     margin-bottom: 5rem;
   }
 }
@@ -115,6 +115,7 @@
 }
 .expertise-title {
   font-size: 5rem;
+  margin-left: 3rem;
 }
 
 /* 2k screens */
@@ -148,6 +149,9 @@
   .expertise {
     margin-bottom: 0rem;
   }
+  .expertise-title {
+    margin-left: 2rem;
+  }
 }
 
 /* Laptops */
@@ -165,6 +169,7 @@
   }
   .expertise-title {
     font-size: 3rem;
+    margin-left: 2rem;
   }
   .skills {
     gap: 2rem;

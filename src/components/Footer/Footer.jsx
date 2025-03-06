@@ -21,19 +21,23 @@ export const Footer = () => {
             href="https://www.linkedin.com/in/marko-bare-332255308/"
             target="_blank"
             rel="noopener noreferrer">
-            <img src="./linkedin.png" alt="" />
+            <img src="./linkedin.png" alt="linked in link" />
           </a>
           <a
             href="https://github.com/MARKO2807"
             target="_blank"
             rel="noopener noreferrer">
-            <img src="./github.png" alt="" />
+            <img src="./github.png" alt="github link" />
           </a>
           <a
             href="https://www.instagram.com/marko_bare/"
             target="_blank"
             rel="noopener noreferrer">
-            <img className="instagram" src="./instagram.png" alt="" />
+            <img
+              className="instagram"
+              src="./instagram.png"
+              alt="instragram link"
+            />
           </a>
         </nav>
       </div>
@@ -42,7 +46,7 @@ export const Footer = () => {
         <small>
           Developed by <strong> Marko Bare</strong>
         </small>
-        <img src="./programmer.gif" alt="" />
+        <img src="./programmer.gif" alt="programmer gif" className="gif" />
       </div>
     </footer>
   );
